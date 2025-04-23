@@ -1,0 +1,20 @@
+{
+  "name": "quotes-api",
+  "version": "1.0.0",
+  "description": "An api with Mongo DB and Express for Quotes",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Paul Anthony McGowan - www.xhostcom.com <info@xhostcom.com> (https://www.xhostcom.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
